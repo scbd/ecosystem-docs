@@ -3,6 +3,7 @@ module.exports = {
   title: 'Design Ecosystem',
   description: 'Design System for the Secretariat of the Convention on Biological Diversity',
   themeConfig: {
+    repo: 'scbd/ecosystem-docs',
     editLinks: true,
     lastUpdated: 'Last Updated', // string | boolean
     nav: [
@@ -20,7 +21,7 @@ module.exports = {
           { text: 'Organisms', link: '/composition/organisms/concept' },
         ]
       },
-      { text: 'Mimicry', link: '/mimicry/' },
+      { text: 'Mimicry', link: '/mimicry/' }
     ],
 
     locales: {
