@@ -1,0 +1,23 @@
+{
+  "name": "ecosystem-docs",
+  "version": "0.0.0",
+  "description": "Design System for the Secretariat of the Convention on Biological Diversity",
+  "author": "Secretariat of the Convention on Biological Diversity <it@cbd.int>",
+  "private": true,
+  "scripts": {
+    "release": "yarn publish"
+  },
+
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+
+  "engines": {
+    "node": ">=8",
+    "yarn": ">=1.6.0"
+  },
+  "devDependencies": {
+    "vuepress": "^0.10.0"
+  }
+}
